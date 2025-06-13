@@ -83,25 +83,17 @@
             "content": ""
           }
         },
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": true
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
             "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "content": "<p><strong>Formula Pakistan</strong> is Pakistan’s #1 motorsport-inspired streetwear brand. We bring high-quality F1-style apparel for fans who live the thrill — on and off the track. Bold looks. Racing spirit. Always in gear. 🏁</p>",
             "enable_follow_on_shop": true
           }
         }
       },
       "block_order": [
         "newsletter",
-        "links",
         "text"
       ],
       "settings": {
