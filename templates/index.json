@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-06-13_at_1.06.12_AM.jpg",
-            "mobile_image": "shopify://shop_images/WhatsApp_Image_2025-06-13_at_1.06.39_AM.jpg",
+            "image": "shopify://shop_images/IMG_8156_fb8a0997-0ee6-4796-bd24-124eebc145f5.png",
+            "mobile_image": "shopify://shop_images/IMG_8151.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -223,8 +223,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/WhatsApp_Image_2025-06-12_at_7.16.11_PM.jpg",
-        "mobile_image": "shopify://shop_images/WhatsApp_Image_2025-06-13_at_1.06.12_AM.jpg",
+        "image": "shopify://shop_images/IMG_8155.png",
+        "mobile_image": "shopify://shop_images/formulapk_insta_posts.zip_-_This.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
