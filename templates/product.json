@@ -28,12 +28,6 @@
             "show_taxes_notice": false
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": true
-          }
-        },
         "product_variations_VdLwFN": {
           "type": "product_variations",
           "settings": {
@@ -79,7 +73,6 @@
         "title",
         "badges",
         "price",
-        "rating",
         "product_variations_VdLwFN",
         "description",
         "variant_picker",
