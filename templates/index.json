@@ -145,8 +145,8 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
-        "text_size": "small",
+        "text": "🎁 Limited Stock – No Restocks Once It’s Gone!",
+        "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 3,
