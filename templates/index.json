@@ -257,6 +257,32 @@
         "product_card_text_color": ""
       }
     },
+    "featured_collection_PM8hmF": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "formation-lap",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Put any 2 items from this collection in your cart and discount will automatically apply.",
+        "title": "Buy 1 Get 1 FREE!!",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "featured_collection_PYegLn": {
       "type": "featured-collection",
       "settings": {
@@ -290,25 +316,14 @@
           "settings": {
             "logo_width": 100,
             "author": "",
-            "content": "Share info about what your customers say about your products.",
-            "show_rating": false,
-            "rating": 4
-          }
-        },
-        "16644243327ba53d2a-1": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Or share content about your promotion, offers...",
+            "content": "Sizes varies from article to article. Please review sizechart before placing an order.",
             "show_rating": false,
             "rating": 4
           }
         }
       },
       "block_order": [
-        "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1"
+        "16644243327ba53d2a-0"
       ],
       "settings": {
         "full_width": true,
@@ -415,6 +430,7 @@
     "impact-text",
     "image-with-text-overlay",
     "featured_collection_EBPmND",
+    "featured_collection_PM8hmF",
     "featured_collection_PYegLn",
     "press",
     "faq"
