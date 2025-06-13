@@ -23,7 +23,7 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
+            "title": "Free Shipping",
             "content": "<p>Free Shipping on orders above Rs.3990</p>"
           }
         },
@@ -36,8 +36,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "title": "Customer Service",
+            "content": "<p>24/7 customer support on whatsapp 03406289516</p>"
           }
         },
         "discount": {
