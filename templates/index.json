@@ -232,56 +232,30 @@
         "overlay_opacity": 0
       }
     },
-    "shop_the_look_berYN9": {
-      "type": "shop-the-look",
-      "blocks": {
-        "product_97HMhx": {
-          "type": "product",
-          "settings": {
-            "product": "2024-special-edition-max-verstappen-lion-cap",
-            "horizontal_position": 52,
-            "vertical_position": 25
-          }
-        },
-        "product_fYFNCT": {
-          "type": "product",
-          "settings": {
-            "product": "austrian-gp-special-edition-rb-home-cap",
-            "horizontal_position": 75,
-            "vertical_position": 53
-          }
-        },
-        "product_E3pBx9": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position": 33,
-            "vertical_position": 73
-          }
-        }
-      },
-      "block_order": [
-        "product_97HMhx",
-        "product_fYFNCT",
-        "product_E3pBx9"
-      ],
-      "name": "Shop the look",
+    "featured_collection_EBPmND": {
+      "type": "featured-collection",
+      "name": "Featured collection",
       "settings": {
+        "collection": "t-shirt-polos",
+        "products": [],
         "full_width": true,
-        "stack_mobile": false,
-        "image": "shopify://shop_images/IMG_8483_b98e6756-0b1f-4101-a957-eeabf684b23d.png",
-        "title": "Shop the look",
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "T-shirts & Polos",
         "content": "",
+        "link_url": "",
+        "link_text": "View all",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
         "product_card_background": "",
-        "product_card_text_color": "",
-        "product_card_mobile_background": "",
-        "product_card_mobile_text_color": "",
-        "background_dots": "#FFF"
+        "product_card_text_color": ""
       }
     },
     "media-grid": {
@@ -828,7 +802,7 @@
     "featured-collection",
     "impact-text",
     "image-with-text-overlay",
-    "shop_the_look_berYN9",
+    "featured_collection_EBPmND",
     "media-grid",
     "before-after-image",
     "press",
