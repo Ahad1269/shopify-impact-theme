@@ -282,31 +282,6 @@
         "product_card_text_color": ""
       }
     },
-    "featured_collection_PYegLn": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "jackets-hoodies",
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 17,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Jackets & Hoodies",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "press": {
       "type": "press",
       "blocks": {
@@ -334,6 +309,31 @@
         "heading_gradient": "",
         "logo_item_background": "",
         "logo_item_border": ""
+      }
+    },
+    "featured_collection_PYegLn": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "jackets-hoodies",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 17,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Jackets & Hoodies",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "faq": {
@@ -430,8 +430,8 @@
     "image-with-text-overlay",
     "featured_collection_EBPmND",
     "featured_collection_PM8hmF",
-    "featured_collection_PYegLn",
     "press",
+    "featured_collection_PYegLn",
     "faq"
   ]
 }
