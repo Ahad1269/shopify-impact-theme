@@ -250,21 +250,6 @@
             "overlay_opacity": 30
           }
         },
-        "collection_FPBNLt": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/IMG_8216_0a6e6140-373f-474b-adf8-710d06ab6e29.jpg",
-            "subheading": "Hoodies & Sweatshirts",
-            "title": "",
-            "url": "shopify://collections/featured-products",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
         "collection_wBJj7z": {
           "type": "collection",
           "settings": {
@@ -279,12 +264,27 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "collection_FPBNLt": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/IMG_8216_0a6e6140-373f-474b-adf8-710d06ab6e29.jpg",
+            "subheading": "Hoodies & Sweatshirts",
+            "title": "",
+            "url": "shopify://collections/featured-products",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "collection_4A8Bg9",
-        "collection_FPBNLt",
-        "collection_wBJj7z"
+        "collection_wBJj7z",
+        "collection_FPBNLt"
       ],
       "name": "Collection list",
       "settings": {
