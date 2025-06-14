@@ -181,6 +181,31 @@
         "product_card_text_color": ""
       }
     },
+    "featured_collection_EBPmND": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "t-shirt-polos",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "T-shirts & Polos",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "impact-text": {
       "type": "impact-text",
       "blocks": {
@@ -318,31 +343,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "featured_collection_EBPmND": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "t-shirt-polos",
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 50,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "T-shirts & Polos",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     },
     "featured_collection_PM8hmF": {
@@ -514,10 +514,10 @@
     "image-link-blocks",
     "scrolling-text",
     "featured-collection",
+    "featured_collection_EBPmND",
     "impact-text",
     "image-with-text-overlay",
     "collection_list_cYRFfw",
-    "featured_collection_EBPmND",
     "featured_collection_PM8hmF",
     "press",
     "featured_collection_PYegLn",
