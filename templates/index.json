@@ -240,8 +240,8 @@
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/IMG_8240.jpg",
-            "subheading": "Tshirt & Polos",
-            "title": "",
+            "subheading": "",
+            "title": "Tshirts & Polos",
             "url": "shopify://collections/t-shirt-polos",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -255,8 +255,8 @@
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/IMG_8241.jpg",
-            "subheading": "Caps",
-            "title": "",
+            "subheading": "",
+            "title": "Caps",
             "url": "shopify://collections/caps",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -270,8 +270,8 @@
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/IMG_8216_0a6e6140-373f-474b-adf8-710d06ab6e29.jpg",
-            "subheading": "Hoodies & Sweatshirts",
-            "title": "",
+            "subheading": "",
+            "title": "Hoodies & Sweatshirts",
             "url": "shopify://collections/featured-products",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
