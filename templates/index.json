@@ -265,6 +265,21 @@
             "overlay_opacity": 30
           }
         },
+        "collection_YHY794": {
+          "type": "collection",
+          "settings": {
+            "collection": "jackets-1",
+            "image": "shopify://shop_images/formulapk_insta_posts_.zip_-_209.jpg",
+            "subheading": "",
+            "title": "Jackets",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_FPBNLt": {
           "type": "collection",
           "settings": {
@@ -284,6 +299,7 @@
       "block_order": [
         "collection_4A8Bg9",
         "collection_wBJj7z",
+        "collection_YHY794",
         "collection_FPBNLt"
       ],
       "name": "Collection list",
