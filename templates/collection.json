@@ -15,7 +15,7 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": true,
-        "show_collection_title": true,
+        "show_collection_title": false,
         "show_collection_description": true,
         "show_collection_image": true,
         "collection_title_size": "h0",
@@ -26,7 +26,7 @@
         "featured_product_heading": "Featured product",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "main": {
