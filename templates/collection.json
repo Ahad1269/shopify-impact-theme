@@ -20,6 +20,7 @@
         "show_collection_image": true,
         "collection_title_size": "h2",
         "image_size": "sm",
+        "image": "shopify://shop_images/Lewis-Hamilton-Montreal.jpg",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
