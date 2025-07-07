@@ -20,7 +20,6 @@
         "show_collection_image": true,
         "collection_title_size": "h1",
         "image_size": "auto",
-        "image": "shopify://shop_images/Shirts_1212b833-d34d-4765-acee-7832e2074bcb.png",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
