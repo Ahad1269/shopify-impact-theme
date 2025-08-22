@@ -50,6 +50,159 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "collection_list_cYRFfw": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_4A8Bg9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/IMG_8240.jpg",
+            "subheading": "",
+            "title": "Tshirts & Polos",
+            "url": "shopify://collections/t-shirt-polos",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_wBJj7z": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/IMG_8241.jpg",
+            "subheading": "",
+            "title": "Caps",
+            "url": "shopify://collections/caps",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_YHY794": {
+          "type": "collection",
+          "settings": {
+            "collection": "jackets-1",
+            "image": "shopify://shop_images/formulapk_insta_posts_.zip_-_209.jpg",
+            "subheading": "",
+            "title": "Jackets",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_FPBNLt": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/IMG_8216_0a6e6140-373f-474b-adf8-710d06ab6e29.jpg",
+            "subheading": "",
+            "title": "Hoodies & Sweatshirts",
+            "url": "shopify://collections/featured-products",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_4A8Bg9",
+        "collection_wBJj7z",
+        "collection_YHY794",
+        "collection_FPBNLt"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 4,
+        "show_progress_bar": true,
+        "subheading": "",
+        "title": "Collection list",
+        "content": "",
+        "link_url": "shopify://collections/t-shirt-polos",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "🎁 Limited Stock – No Restocks Once It’s Gone!",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "caps",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Headwear",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_EBPmND": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "t-shirt-polos",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "T-shirts & Polos",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -155,71 +308,6 @@
         "heading_gradient": ""
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "🎁 Limited Stock – No Restocks Once It’s Gone!",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "caps",
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 50,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Headwear",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "featured_collection_EBPmND": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "t-shirt-polos",
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 50,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "T-shirts & Polos",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "impact-text": {
       "type": "impact-text",
       "blocks": {
@@ -269,94 +357,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "collection_list_cYRFfw": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_4A8Bg9": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/IMG_8240.jpg",
-            "subheading": "",
-            "title": "Tshirts & Polos",
-            "url": "shopify://collections/t-shirt-polos",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_wBJj7z": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/IMG_8241.jpg",
-            "subheading": "",
-            "title": "Caps",
-            "url": "shopify://collections/caps",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_YHY794": {
-          "type": "collection",
-          "settings": {
-            "collection": "jackets-1",
-            "image": "shopify://shop_images/formulapk_insta_posts_.zip_-_209.jpg",
-            "subheading": "",
-            "title": "Jackets",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_FPBNLt": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/IMG_8216_0a6e6140-373f-474b-adf8-710d06ab6e29.jpg",
-            "subheading": "",
-            "title": "Hoodies & Sweatshirts",
-            "url": "shopify://collections/featured-products",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_4A8Bg9",
-        "collection_wBJj7z",
-        "collection_YHY794",
-        "collection_FPBNLt"
-      ],
-      "name": "Collection list",
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 4,
-        "show_progress_bar": true,
-        "subheading": "",
-        "title": "Collection list",
-        "content": "",
-        "link_url": "shopify://collections/t-shirt-polos",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "featured_collection_PM8hmF": {
@@ -550,13 +550,13 @@
   },
   "order": [
     "slideshow",
-    "image-link-blocks",
+    "collection_list_cYRFfw",
     "scrolling-text",
     "featured-collection",
     "featured_collection_EBPmND",
+    "image-link-blocks",
     "impact-text",
     "image-with-text-overlay",
-    "collection_list_cYRFfw",
     "featured_collection_PM8hmF",
     "press",
     "featured_collection_PYegLn",
