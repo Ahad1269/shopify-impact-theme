@@ -384,31 +384,6 @@
         "product_card_text_color": ""
       }
     },
-    "featured_collection_PM8hmF": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "formation-lap",
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 50,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "Put any 2 items from this collection in your cart and discount will automatically apply.",
-        "title": "Buy 1 Get 1 FREE!!",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "press": {
       "type": "press",
       "blocks": {
@@ -438,6 +413,31 @@
         "logo_item_border": ""
       }
     },
+    "featured_collection_PM8hmF": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "formation-lap",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Put any 2 items from this collection in your cart and discount will automatically apply.",
+        "title": "Buy 1 Get 1 FREE!!",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "before_after_image_g44dND": {
       "type": "before-after-image",
       "name": "Before/after image",
@@ -446,6 +446,8 @@
         "subheading": "",
         "title": "Whichever machine you cheer for, our collection celebrates them all.",
         "content": "",
+        "before_image": "shopify://shop_images/IMG_8265.png",
+        "after_image": "shopify://shop_images/IMG_8266.png",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
