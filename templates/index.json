@@ -106,7 +106,7 @@
             "subheading": "",
             "title": "Hoodies & Sweatshirts",
             "url": "shopify://collections/featured-products",
-            "heading_tag": "h4",
+            "heading_tag": "h6",
             "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
