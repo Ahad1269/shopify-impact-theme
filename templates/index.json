@@ -57,11 +57,12 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "subheading": "",
-            "title": "Tshirts & Polos",
+            "image": "shopify://shop_images/IMG_8240.jpg",
+            "subheading": "T-Shirts & Polos",
+            "title": "",
             "url": "shopify://collections/t-shirt-polos",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h6",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -71,11 +72,12 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "subheading": "",
-            "title": "Caps",
+            "image": "shopify://shop_images/IMG_8241.jpg",
+            "subheading": "Caps",
+            "title": "",
             "url": "shopify://collections/caps",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h6",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -84,12 +86,13 @@
         "collection_YHY794": {
           "type": "collection",
           "settings": {
-            "collection": "jackets-1",
+            "collection": "",
+            "image": "shopify://shop_images/formulapk_insta_posts_.zip_-_209.jpg",
             "subheading": "",
             "title": "Jackets",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "url": "shopify://collections/jackets-1",
+            "heading_tag": "h6",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -99,11 +102,12 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/IMG_8216_fa314d2e-0393-47b5-9825-f1f12acc2dde.jpg",
             "subheading": "",
             "title": "Hoodies & Sweatshirts",
             "url": "shopify://collections/featured-products",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h6",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
