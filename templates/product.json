@@ -43,6 +43,27 @@
             "collapse_content": true
           }
         },
+        "image_7war94": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-2695.png",
+            "alignment": "center",
+            "max_width": 220
+          }
+        },
+        "inventory_tY477w": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 0
+          }
+        },
+        "collapsible_text_DW9U4i": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -75,6 +96,9 @@
         "price",
         "product_variations_VdLwFN",
         "description",
+        "image_7war94",
+        "inventory_tY477w",
+        "collapsible_text_DW9U4i",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
