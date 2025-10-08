@@ -15,8 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_8156.png",
-            "mobile_image": "shopify://shop_images/WhatsApp_Image_2025-06-13_at_1.06.39_AM.jpg",
+            "image": "shopify://shop_images/Double.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -57,7 +56,6 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/IMG_8240.jpg",
             "subheading": "T-Shirts & Polos",
             "title": "",
             "url": "shopify://collections/t-shirt-polos",
@@ -72,7 +70,6 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/IMG_8241.jpg",
             "subheading": "Caps",
             "title": "",
             "url": "shopify://collections/caps",
@@ -87,7 +84,6 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/formulapk_insta_posts_.zip_-_209.jpg",
             "subheading": "",
             "title": "Jackets",
             "url": "shopify://collections/jackets-1",
@@ -102,7 +98,6 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/IMG_8216_0a6e6140-373f-474b-adf8-710d06ab6e29.jpg",
             "subheading": "",
             "title": "Hoodies & Sweatshirts",
             "url": "shopify://collections/featured-products",
@@ -209,7 +204,6 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_8483_b98e6756-0b1f-4101-a957-eeabf684b23d.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/ferrari",
@@ -222,7 +216,6 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_8482_1fc053bc-5193-4841-a71b-905733abaf2b.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/mercedes",
@@ -235,7 +228,6 @@
         "1664424046b00c932c-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_8485_fee20818-206a-4352-b988-ceb2ee2154ef.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/mclaren",
@@ -248,7 +240,6 @@
         "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_8486_f6db38b6-fb0a-4dbd-bdb9-89c04b9c8247.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/bmw",
@@ -261,7 +252,6 @@
         "item_CW4rjz": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_8488_8b9a4021-d6d9-41a0-acfa-3bf76a46fc10.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/aston-martin",
@@ -274,7 +264,6 @@
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_8487_ce7d20ca-47e5-4d1c-bdf2-ed6fdc6a1794.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/other-teams",
@@ -350,8 +339,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/IMG_8155.png",
-        "mobile_image": "shopify://shop_images/IMG_8156_fb8a0997-0ee6-4796-bd24-124eebc145f5.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -446,8 +433,6 @@
         "subheading": "",
         "title": "Whichever machine you cheer for, our collection celebrates them all.",
         "content": "",
-        "before_image": "shopify://shop_images/IMG_8265.png",
-        "after_image": "shopify://shop_images/IMG_8266.png",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
