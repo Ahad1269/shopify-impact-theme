@@ -251,6 +251,19 @@
             "image": "shopify://shop_images/IMG_8486_f6db38b6-fb0a-4dbd-bdb9-89c04b9c8247.png",
             "stretch_image": true,
             "link_text": "",
+            "link_url": "shopify://collections/redbull",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_UVdLRM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8486_f6db38b6-fb0a-4dbd-bdb9-89c04b9c8247.png",
+            "stretch_image": true,
+            "link_text": "",
             "link_url": "shopify://collections/bmw",
             "background": "",
             "text_color": "#ffffff",
@@ -290,6 +303,7 @@
         "1664424046b00c932c-1",
         "1664424046b00c932c-2",
         "1664424046b00c932c-3",
+        "item_UVdLRM",
         "item_CW4rjz",
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
       ],
