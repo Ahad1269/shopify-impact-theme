@@ -57,6 +57,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/IMG_8240.jpg",
             "subheading": "T-Shirts & Polos",
             "title": "",
             "url": "shopify://collections/t-shirt-polos",
@@ -71,6 +72,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/IMG_8241.jpg",
             "subheading": "Caps",
             "title": "",
             "url": "shopify://collections/caps",
@@ -85,6 +87,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/formulapk_insta_posts_.zip_-_209.jpg",
             "subheading": "",
             "title": "Jackets",
             "url": "shopify://collections/jackets-1",
