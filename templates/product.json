@@ -18,6 +18,10 @@
             "heading_tag": "h2"
           }
         },
+        "judge_me_reviews_preview_badge_WUiPTq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -26,6 +30,27 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
           }
         },
         "product_variations_VdLwFN": {
@@ -43,6 +68,13 @@
             "collapse_content": true
           }
         },
+        "image_7war94": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "max_width": 220
+          }
+        },
         "inventory_tY477w": {
           "type": "inventory",
           "settings": {
@@ -56,43 +88,24 @@
             "content": ""
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
         }
       },
       "block_order": [
         "title",
+        "judge_me_reviews_preview_badge_WUiPTq",
         "badges",
         "price",
+        "variant_picker",
+        "buy_buttons",
         "product_variations_VdLwFN",
         "description",
+        "image_7war94",
         "inventory_tY477w",
         "collapsible_text_DW9U4i",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons"
+        "quantity_selector"
       ],
       "settings": {
         "full_width": true,
