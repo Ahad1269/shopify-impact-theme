@@ -209,6 +209,7 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8483_b98e6756-0b1f-4101-a957-eeabf684b23d.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/ferrari",
@@ -221,6 +222,7 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8482_1fc053bc-5193-4841-a71b-905733abaf2b.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/mercedes",
@@ -233,6 +235,7 @@
         "1664424046b00c932c-2": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8485_fee20818-206a-4352-b988-ceb2ee2154ef.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/mclaren",
@@ -245,6 +248,7 @@
         "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8486_f6db38b6-fb0a-4dbd-bdb9-89c04b9c8247.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/bmw",
@@ -257,6 +261,7 @@
         "item_CW4rjz": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8488_a37dda8b-201c-4591-bf4d-6d1a67ad772c.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/aston-martin",
@@ -269,6 +274,7 @@
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8487_ce7d20ca-47e5-4d1c-bdf2-ed6fdc6a1794.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/other-teams",
