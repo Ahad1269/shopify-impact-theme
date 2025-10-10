@@ -33,10 +33,33 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "image_xBQXHD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_15_0b7b4c50-593e-42b5-9656-6c1910a1e6a2.png",
+            "mobile_image": "shopify://shop_images/Untitled_design_15.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 1,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
-        "slide-1"
+        "slide-1",
+        "image_xBQXHD"
       ],
       "settings": {
         "full_width": true,
@@ -56,57 +79,61 @@
         "collection_4A8Bg9": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "subheading": "T-Shirts & Polos",
-            "title": "",
-            "url": "shopify://collections/t-shirt-polos",
+            "collection": "card-holders",
+            "image": "shopify://shop_images/Untitled_design_17.png",
+            "subheading": "‎",
+            "title": "‎",
+            "url": "shopify://collections/card-holders",
             "heading_tag": "h6",
             "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
+            "text_color": "#1a1a1a",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_wBJj7z": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "subheading": "Caps",
-            "title": "",
+            "collection": "airpods-cases",
+            "image": "shopify://shop_images/Airpod_Cases.png",
+            "subheading": "‎",
+            "title": "‎",
             "url": "shopify://collections/caps",
             "heading_tag": "h6",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_YHY794": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kitchen",
+            "image": "shopify://shop_images/Card_Holders.png",
             "subheading": "",
-            "title": "Jackets",
-            "url": "shopify://collections/jackets-1",
+            "title": "‎",
+            "url": "shopify://collections/kitchen",
             "heading_tag": "h6",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "collection_FPBNLt": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "iphone-cases",
+            "image": "shopify://shop_images/Card_Holders_1.png",
             "subheading": "",
-            "title": "Hoodies & Sweatshirts",
-            "url": "shopify://collections/featured-products",
+            "title": "‎",
+            "url": "shopify://collections/iphone-cases",
             "heading_tag": "h6",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
@@ -152,7 +179,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "caps",
+        "collection": "iphone-cases",
         "products": [],
         "full_width": true,
         "stack_products": false,
@@ -161,7 +188,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Headwear",
+        "title": "Iphone Cases",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -177,7 +204,7 @@
     "featured_collection_EBPmND": {
       "type": "featured-collection",
       "settings": {
-        "collection": "t-shirt-polos",
+        "collection": "kitchen",
         "products": [],
         "full_width": true,
         "stack_products": false,
