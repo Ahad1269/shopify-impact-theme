@@ -16,6 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Double.png",
+            "mobile_image": "shopify://shop_images/Untitled_design_14_e218c540-a056-4be8-a26d-89bfed30dacb.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
