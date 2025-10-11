@@ -400,13 +400,6 @@
             "content": "<p>Once shipped, you’ll receive a tracking number via Email you provided.</p>"
           }
         },
-        "item_9gA7ne": {
-          "type": "item",
-          "settings": {
-            "title": "Is it Orignal?",
-            "content": "<p>Our products are carefully sourced and imported to ensure high quality and authenticity in design. While they are not official, we bring you the best F1 merchandise experience.</p>"
-          }
-        },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
@@ -427,7 +420,6 @@
         "166442457738b23caf-0",
         "item_QCJ9gk",
         "item_HdthTR",
-        "item_9gA7ne",
         "166442457738b23caf-2",
         "item_iRgaeL"
       ],
