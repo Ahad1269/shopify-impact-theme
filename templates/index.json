@@ -184,6 +184,7 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8483_f732f38c-96fd-48b7-ac52-306b2647644c.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/ferrari",
@@ -196,6 +197,7 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8482_78fd4de6-749c-4344-80b5-23f3907534af.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/mercedes",
@@ -208,6 +210,7 @@
         "1664424046b00c932c-2": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8485_c248d1bd-87c2-44b2-afbd-0cd377d99ef7.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/mclaren",
@@ -220,6 +223,7 @@
         "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8484_6d7b45ce-868b-446f-ae5a-9a8179b3cad8.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/redbull",
@@ -232,6 +236,7 @@
         "item_UVdLRM": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8486_53dcfaf6-50c3-4cbc-97d5-32f55db3bb12.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/bmw",
@@ -244,6 +249,7 @@
         "item_CW4rjz": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8488_0b41a265-2f53-4d72-8f5f-697987713739.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/aston-martin",
@@ -256,6 +262,7 @@
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_8487_7e3ed54a-3e81-4e00-a3cf-9d349d400e77.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "shopify://collections/other-teams",
