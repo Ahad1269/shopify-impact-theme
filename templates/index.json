@@ -71,12 +71,13 @@
         "collection_wBJj7z": {
           "type": "collection",
           "settings": {
-            "collection": "airpods-cases",
+            "collection": "featured-products",
+            "image": "shopify://shop_images/IMG_8216_684f93a3-165f-45f9-95cd-52ab045b5c4d.jpg",
             "subheading": "‎",
-            "title": "‎",
-            "url": "shopify://collections/caps",
+            "title": "‎Hoodies & Sweatshirts",
+            "url": "shopify://collections/featured-products",
             "heading_tag": "h6",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
