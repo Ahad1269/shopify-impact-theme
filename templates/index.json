@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_8156_1a60f539-a136-4b2e-84c0-37f15c75615c.png",
-            "mobile_image": "shopify://shop_images/IMG_8151_957aff96-befd-41e9-a26a-0f18f00fc471.png",
+            "image": "shopify://shop_images/Double.png",
+            "mobile_image": "shopify://shop_images/Untitled_design_14_e218c540-a056-4be8-a26d-89bfed30dacb.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -33,10 +33,33 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "image_xBQXHD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_15_0b7b4c50-593e-42b5-9656-6c1910a1e6a2.png",
+            "mobile_image": "shopify://shop_images/Add_a_subheading_2.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 1,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
-        "slide-1"
+        "slide-1",
+        "image_xBQXHD"
       ],
       "settings": {
         "full_width": true,
@@ -56,29 +79,14 @@
         "collection_4A8Bg9": {
           "type": "collection",
           "settings": {
-            "collection": "redbull-shirts-hoodies",
-            "image": "shopify://shop_images/IMG_8240_1c91bc83-80fb-4ee6-9bc9-456848ec8114.jpg",
+            "collection": "card-holders",
+            "image": "shopify://shop_images/Untitled_design_17.png",
             "subheading": "‎",
-            "title": "‎T-Shirts and Polos",
-            "url": "shopify://collections/redbull-shirts-hoodies",
+            "title": "‎",
+            "url": "shopify://collections/card-holders",
             "heading_tag": "h6",
-            "text_position": "place-self-end-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_FPBNLt": {
-          "type": "collection",
-          "settings": {
-            "collection": "caps",
-            "image": "shopify://shop_images/IMG_8241_0761208d-6e3e-4a48-967e-9eb2bfc508a1.jpg",
-            "subheading": "",
-            "title": "‎Caps",
-            "url": "shopify://collections/caps",
-            "heading_tag": "h6",
-            "text_position": "place-self-end-center text-center",
-            "text_color": "#ffffff",
+            "text_position": "place-self-center text-center",
+            "text_color": "#1a1a1a",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -86,13 +94,13 @@
         "collection_wBJj7z": {
           "type": "collection",
           "settings": {
-            "collection": "featured-products",
-            "image": "shopify://shop_images/IMG_8216_684f93a3-165f-45f9-95cd-52ab045b5c4d.jpg",
+            "collection": "airpods-cases",
+            "image": "shopify://shop_images/Airpod_Cases.png",
             "subheading": "‎",
-            "title": "‎Hoodies & Sweatshirts",
-            "url": "shopify://collections/featured-products",
+            "title": "‎",
+            "url": "shopify://collections/caps",
             "heading_tag": "h6",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -101,13 +109,28 @@
         "collection_YHY794": {
           "type": "collection",
           "settings": {
-            "collection": "jackets-1",
-            "image": "shopify://shop_images/formulapk_insta_posts_.zip_-_209_fb7ad423-6343-4952-93e6-1b66fadfd997.jpg",
+            "collection": "kitchen",
+            "image": "shopify://shop_images/Card_Holders.png",
             "subheading": "",
-            "title": "‎Jackets",
-            "url": "shopify://collections/jackets-1",
+            "title": "‎",
+            "url": "shopify://collections/kitchen",
             "heading_tag": "h6",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_FPBNLt": {
+          "type": "collection",
+          "settings": {
+            "collection": "iphone-cases",
+            "image": "shopify://shop_images/Card_Holders_1.png",
+            "subheading": "",
+            "title": "‎",
+            "url": "shopify://collections/iphone-cases",
+            "heading_tag": "h6",
+            "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -116,9 +139,9 @@
       },
       "block_order": [
         "collection_4A8Bg9",
-        "collection_FPBNLt",
         "collection_wBJj7z",
-        "collection_YHY794"
+        "collection_YHY794",
+        "collection_FPBNLt"
       ],
       "name": "Collection list",
       "settings": {
@@ -142,8 +165,8 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Fast moves only.🏎️  Limited drops — no guaranteed restock! 🔥",
-        "text_size": "xsmall",
+        "text": "✨ Your Premium Living Experience",
+        "text_size": "small",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 3,
@@ -153,19 +176,19 @@
         "text_gradient": ""
       }
     },
-    "featured_collection_EBPmND": {
+    "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "caps",
+        "collection": "iphone-cases",
         "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
         "products_count": 50,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Head Wear",
+        "title": "Iphone Cases",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -178,20 +201,19 @@
         "product_card_text_color": ""
       }
     },
-    "featured_collection_wQMKjh": {
+    "featured_collection_EBPmND": {
       "type": "featured-collection",
-      "name": "Featured collection",
       "settings": {
-        "collection": "t-shirt-polos",
+        "collection": "kitchen",
         "products": [],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 15,
+        "show_progress_bar": true,
+        "products_count": 50,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "T-Shirts & Polos",
+        "title": "T-shirts & Polos",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -210,10 +232,10 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_8483_f732f38c-96fd-48b7-ac52-306b2647644c.png",
+            "image": "shopify://shop_images/Airpod_Cases.png",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/ferrari",
+            "link_url": "shopify://collections/airpods-cases",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -223,10 +245,10 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_8482_78fd4de6-749c-4344-80b5-23f3907534af.png",
+            "image": "shopify://shop_images/Untitled_design_17.png",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/mercedes",
+            "link_url": "shopify://collections/card-holders",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -236,10 +258,10 @@
         "1664424046b00c932c-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_8485_c248d1bd-87c2-44b2-afbd-0cd377d99ef7.png",
+            "image": "shopify://shop_images/Card_Holders.png",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/mclaren",
+            "link_url": "shopify://collections/kitchen",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -249,49 +271,10 @@
         "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_8484_6d7b45ce-868b-446f-ae5a-9a8179b3cad8.png",
+            "image": "shopify://shop_images/Card_Holders_1.png",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/redbull",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_UVdLRM": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8486_53dcfaf6-50c3-4cbc-97d5-32f55db3bb12.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://collections/bmw",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_CW4rjz": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8488_0b41a265-2f53-4d72-8f5f-697987713739.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://collections/aston-martin",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8487_7e3ed54a-3e81-4e00-a3cf-9d349d400e77.png",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "shopify://collections/other-teams",
+            "link_url": "shopify://collections/iphone-cases",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -303,10 +286,7 @@
         "1664424046b00c932c-0",
         "1664424046b00c932c-1",
         "1664424046b00c932c-2",
-        "1664424046b00c932c-3",
-        "item_UVdLRM",
-        "item_CW4rjz",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
+        "1664424046b00c932c-3"
       ],
       "settings": {
         "full_width": false,
@@ -365,7 +345,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/IMG_8155_73f5957b-c86d-48b6-91d0-e33ec634ae03.png",
+        "image": "shopify://shop_images/www.rabisastore.pk.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -376,7 +356,7 @@
     "featured_collection_PYegLn": {
       "type": "featured-collection",
       "settings": {
-        "collection": "jackets-hoodies",
+        "collection": "home-decor",
         "products": [],
         "full_width": true,
         "stack_products": false,
@@ -385,7 +365,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Jackets & Hoodies",
+        "title": "Home and Decor",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -430,7 +410,7 @@
     "featured_collection_PM8hmF": {
       "type": "featured-collection",
       "settings": {
-        "collection": "formation-lap",
+        "collection": "earbuds-headphones",
         "products": [],
         "full_width": true,
         "stack_products": false,
@@ -438,8 +418,8 @@
         "products_count": 50,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
-        "subheading": "Put any 2 items from this collection in your cart and discount will automatically apply.",
-        "title": "Buy 1 Get 1 FREE!!",
+        "subheading": "Earbuds and headphones",
+        "title": "On avery discounted price !",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -460,8 +440,8 @@
         "subheading": "",
         "title": "Whichever machine you cheer for, our collection celebrates them all.",
         "content": "",
-        "before_image": "shopify://shop_images/IMG_8265_33cfd341-5884-4c5b-860a-c4bf1b9cedd4.png",
-        "after_image": "shopify://shop_images/IMG_8266_7dd238ce-a594-4d23-9c72-b61419d56fea.png",
+        "before_image": "shopify://shop_images/www.rabisastore.pk_1.png",
+        "after_image": "shopify://shop_images/www.rabisastore.pk_d53fd15a-11f9-404b-8ff9-2c3f5c6ba645.png",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
@@ -566,8 +546,8 @@
     "slideshow",
     "collection_list_cYRFfw",
     "scrolling-text",
+    "featured-collection",
     "featured_collection_EBPmND",
-    "featured_collection_wQMKjh",
     "image-link-blocks",
     "impact-text",
     "image-with-text-overlay",
