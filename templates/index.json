@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Double.png",
-            "mobile_image": "shopify://shop_images/Untitled_design_14_e218c540-a056-4be8-a26d-89bfed30dacb.png",
+            "image": "shopify://shop_images/IMG_8156_1a60f539-a136-4b2e-84c0-37f15c75615c.png",
+            "mobile_image": "shopify://shop_images/IMG_8151_957aff96-befd-41e9-a26a-0f18f00fc471.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -33,33 +33,10 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "image_xBQXHD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_15_0b7b4c50-593e-42b5-9656-6c1910a1e6a2.png",
-            "mobile_image": "shopify://shop_images/Untitled_design_15.png",
-            "content_max_width": 1200,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 1,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "slide-1",
-        "image_xBQXHD"
+        "slide-1"
       ],
       "settings": {
         "full_width": true,
@@ -80,7 +57,6 @@
           "type": "collection",
           "settings": {
             "collection": "card-holders",
-            "image": "shopify://shop_images/Untitled_design_17.png",
             "subheading": "‎",
             "title": "‎",
             "url": "shopify://collections/card-holders",
@@ -95,7 +71,6 @@
           "type": "collection",
           "settings": {
             "collection": "airpods-cases",
-            "image": "shopify://shop_images/Airpod_Cases.png",
             "subheading": "‎",
             "title": "‎",
             "url": "shopify://collections/caps",
@@ -110,7 +85,6 @@
           "type": "collection",
           "settings": {
             "collection": "kitchen",
-            "image": "shopify://shop_images/Card_Holders.png",
             "subheading": "",
             "title": "‎",
             "url": "shopify://collections/kitchen",
@@ -125,7 +99,6 @@
           "type": "collection",
           "settings": {
             "collection": "iphone-cases",
-            "image": "shopify://shop_images/Card_Holders_1.png",
             "subheading": "",
             "title": "‎",
             "url": "shopify://collections/iphone-cases",
@@ -380,7 +353,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/www.rabisastore.pk.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -475,8 +447,6 @@
         "subheading": "",
         "title": "Whichever machine you cheer for, our collection celebrates them all.",
         "content": "",
-        "before_image": "shopify://shop_images/www.rabisastore.pk_1.png",
-        "after_image": "shopify://shop_images/www.rabisastore.pk_d53fd15a-11f9-404b-8ff9-2c3f5c6ba645.png",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
