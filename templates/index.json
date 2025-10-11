@@ -56,13 +56,14 @@
         "collection_4A8Bg9": {
           "type": "collection",
           "settings": {
-            "collection": "card-holders",
+            "collection": "redbull-shirts-hoodies",
+            "image": "shopify://shop_images/IMG_8240_1c91bc83-80fb-4ee6-9bc9-456848ec8114.jpg",
             "subheading": "‎",
-            "title": "‎",
-            "url": "shopify://collections/card-holders",
+            "title": "‎T-Shirts and Polos",
+            "url": "shopify://collections/redbull-shirts-hoodies",
             "heading_tag": "h6",
-            "text_position": "place-self-center text-center",
-            "text_color": "#1a1a1a",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
