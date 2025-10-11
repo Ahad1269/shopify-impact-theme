@@ -68,6 +68,21 @@
             "overlay_opacity": 0
           }
         },
+        "collection_FPBNLt": {
+          "type": "collection",
+          "settings": {
+            "collection": "caps",
+            "image": "shopify://shop_images/IMG_8241_0761208d-6e3e-4a48-967e-9eb2bfc508a1.jpg",
+            "subheading": "",
+            "title": "‎Caps",
+            "url": "shopify://collections/caps",
+            "heading_tag": "h6",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "collection_wBJj7z": {
           "type": "collection",
           "settings": {
@@ -97,28 +112,13 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "collection_FPBNLt": {
-          "type": "collection",
-          "settings": {
-            "collection": "caps",
-            "image": "shopify://shop_images/IMG_8241_0761208d-6e3e-4a48-967e-9eb2bfc508a1.jpg",
-            "subheading": "",
-            "title": "‎Caps",
-            "url": "shopify://collections/caps",
-            "heading_tag": "h6",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
         "collection_4A8Bg9",
+        "collection_FPBNLt",
         "collection_wBJj7z",
-        "collection_YHY794",
-        "collection_FPBNLt"
+        "collection_YHY794"
       ],
       "name": "Collection list",
       "settings": {
@@ -142,8 +142,8 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "✨ Your Premium Living Experience",
-        "text_size": "small",
+        "text": "Hurry Up!!🔥     Once The Item Is Soldout They Might Not Get Restock📦",
+        "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 3,
@@ -156,7 +156,7 @@
     "featured_collection_EBPmND": {
       "type": "featured-collection",
       "settings": {
-        "collection": "kitchen",
+        "collection": "caps",
         "products": [],
         "full_width": true,
         "stack_products": false,
@@ -165,7 +165,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "T-shirts & Polos",
+        "title": "Head Wear",
         "content": "",
         "link_url": "",
         "link_text": "View all",
