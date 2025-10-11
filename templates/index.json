@@ -86,12 +86,13 @@
         "collection_YHY794": {
           "type": "collection",
           "settings": {
-            "collection": "kitchen",
+            "collection": "jackets-1",
+            "image": "shopify://shop_images/formulapk_insta_posts_.zip_-_209_fb7ad423-6343-4952-93e6-1b66fadfd997.jpg",
             "subheading": "",
-            "title": "‎",
-            "url": "shopify://collections/kitchen",
+            "title": "‎Jackets",
+            "url": "shopify://collections/jackets-1",
             "heading_tag": "h6",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -149,31 +150,6 @@
         "background_gradient": "",
         "text_color": "",
         "text_gradient": ""
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "iphone-cases",
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 50,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Iphone Cases",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     },
     "featured_collection_EBPmND": {
@@ -553,7 +529,6 @@
     "slideshow",
     "collection_list_cYRFfw",
     "scrolling-text",
-    "featured-collection",
     "featured_collection_EBPmND",
     "image-link-blocks",
     "impact-text",
