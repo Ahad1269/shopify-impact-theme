@@ -101,10 +101,11 @@
         "collection_FPBNLt": {
           "type": "collection",
           "settings": {
-            "collection": "iphone-cases",
+            "collection": "caps",
+            "image": "shopify://shop_images/IMG_8241_0761208d-6e3e-4a48-967e-9eb2bfc508a1.jpg",
             "subheading": "",
-            "title": "‎",
-            "url": "shopify://collections/iphone-cases",
+            "title": "‎Caps",
+            "url": "shopify://collections/caps",
             "heading_tag": "h6",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
