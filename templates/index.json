@@ -77,7 +77,7 @@
             "title": "‎Caps",
             "url": "shopify://collections/caps",
             "heading_tag": "h6",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
