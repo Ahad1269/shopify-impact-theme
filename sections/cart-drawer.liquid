@@ -1,4 +1,5 @@
-<!-- Enhanced Cart Drawer – Impact Theme Custom Payment Options -->
+{% if template.name == 'cart' %}
+<!-- JazzCash + Bank Transfer (Cart Page Only) -->
 <style>
   .payment-method-box {
     margin-top: 1.5rem;
@@ -36,11 +37,6 @@
   .payment-details.active {
     display: block;
   }
-  .payment-details p {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #333;
-  }
   .payment-form {
     margin-top: 1rem;
     display: flex;
@@ -76,17 +72,17 @@
 
 <div class="payment-method-box">
   <h3>Choose Payment Method:</h3>
-  <select id="paymentMethodDrawer" class="payment-method-select">
+  <select id="paymentMethodCart" class="payment-method-select">
     <option value="">Select Payment Method</option>
     <option value="cod">💵 Cash on Delivery</option>
     <option value="jazzcash">📱 JazzCash (5% OFF)</option>
     <option value="bank">🏦 Bank Transfer (Meezan Bank - 5% OFF)</option>
   </select>
 
-  <!-- JazzCash Info -->
+  <!-- JazzCash -->
   <div id="jazzcashDetails" class="payment-details">
     <p><strong>Account Number:</strong> 0321-7815858</p>
-    <p>Please send payment to our JazzCash number and then share your receipt screenshot via WhatsApp:</p>
+    <p>Please send payment via JazzCash and then share your receipt via WhatsApp:</p>
     <p><strong>📞 WhatsApp:</strong> 0321-7815858</p>
     <form class="payment-form">
       <input type="text" placeholder="Full Name" required>
@@ -97,13 +93,13 @@
     </form>
   </div>
 
-  <!-- Meezan Bank Info -->
+  <!-- Meezan Bank -->
   <div id="bankDetails" class="payment-details">
     <p><strong>Bank Name:</strong> Meezan Bank</p>
     <p><strong>Account Title:</strong> Rabisa Store</p>
     <p><strong>Account Number:</strong> PK47 MEZN 0004 0301 0456 4834</p>
     <p><strong>Branch Code:</strong> 0403 — Peoples Colony Branch, Faisalabad</p>
-    <p>After sending payment, please share your receipt screenshot via:</p>
+    <p>After sending payment, share receipt via:</p>
     <p><strong>📧 Email:</strong> rabisastore@gmail.com<br><strong>📞 WhatsApp:</strong> +92 321 7815858</p>
     <form class="payment-form">
       <input type="text" placeholder="Full Name" required>
@@ -117,7 +113,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const select = document.getElementById("paymentMethodDrawer");
+    const select = document.getElementById("paymentMethodCart");
     const jazzcashDetails = document.getElementById("jazzcashDetails");
     const bankDetails = document.getElementById("bankDetails");
     const applyJazzCash = document.getElementById("applyJazzCash");
@@ -129,11 +125,8 @@
       jazzcashDetails.classList.remove("active");
       bankDetails.classList.remove("active");
 
-      if (select.value === "jazzcash") {
-        jazzcashDetails.classList.add("active");
-      } else if (select.value === "bank") {
-        bankDetails.classList.add("active");
-      }
+      if (select.value === "jazzcash") jazzcashDetails.classList.add("active");
+      else if (select.value === "bank") bankDetails.classList.add("active");
     });
 
     applyJazzCash.addEventListener("click", () => {
@@ -145,3 +138,4 @@
     });
   });
 </script>
+{% endif %}
