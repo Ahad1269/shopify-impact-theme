@@ -202,7 +202,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Kitchen Dining",
+        "title": "Best Sellers",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -213,6 +213,107 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "featured_product_Dx8L9n": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kjwb3V": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_yf6Yex": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_UG7jFt": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_Gn7fUe": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_4XPXTA": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4dHnUy": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_PD9qQa": {
+          "type": "description",
+          "settings": {
+            "collapse_content": true
+          }
+        },
+        "variant_picker_hTLGQr": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_npGYBj": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_fXGaBd": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_RfhYjj": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kjwb3V",
+        "title_yf6Yex",
+        "badges_UG7jFt",
+        "price_Gn7fUe",
+        "rating_4XPXTA",
+        "separator_4dHnUy",
+        "description_PD9qQa",
+        "variant_picker_hTLGQr",
+        "quantity_selector_npGYBj",
+        "buy_buttons_fXGaBd",
+        "pickup_availability_RfhYjj"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "24-piece-gold-stainless-steel-cutlery-set-elegant-flatware-with-forks-knives-spoons-in-gift-box-green-white-rose-gold-golden",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
     "impact-text": {
@@ -452,6 +553,7 @@
     "featured-collection",
     "image-link-blocks",
     "featured_collection_EBPmND",
+    "featured_product_Dx8L9n",
     "impact-text",
     "image-with-text-overlay",
     "featured_collection_PYegLn",
