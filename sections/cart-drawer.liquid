@@ -1,149 +1,74 @@
-{% if template.name == 'cart' %}
-<!-- JazzCash + Bank Transfer (Cart Page Only with Discount Logic Fixed) -->
-<style>
-  .payment-method-box {
-    margin-top: 1.5rem;
-    padding: 1rem;
-    background: #f9fafb;
-    border-radius: 12px;
-    border: 1px solid #e5e7eb;
-  }
-  .payment-method-box h3 {
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-    color: #111827;
-  }
-  .payment-method-select {
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    font-size: 15px;
-    outline: none;
-    transition: 0.2s ease;
-  }
-  .payment-method-select:hover {
-    border-color: #111;
-  }
-  .payment-details {
-    margin-top: 1rem;
-    background: #fff;
-    padding: 1rem;
-    border-radius: 10px;
-    border: 1px solid #e5e7eb;
-    display: none;
-  }
-  .payment-details.active {
-    display: block;
-  }
-  .payment-form {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .payment-form input, .payment-form textarea {
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    width: 100%;
-    font-size: 14px;
-  }
-  .payment-form input:focus, .payment-form textarea:focus {
-    border-color: #000;
-    outline: none;
-  }
-  .payment-form button {
-    background: #111827;
-    color: #fff;
-    border: none;
-    padding: 12px;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.2s ease;
-  }
-  .payment-form button:hover {
-    background: #000;
-  }
-</style>
+{% if template.name == 'checkout' %}
+  <style>
+    .payment-method-wrapper {
+      margin-top: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      background: #fafafa;
+    }
+    .payment-method-wrapper h4 {
+      margin-bottom: 10px;
+    }
+    .payment-option {
+      display: flex;
+      align-items: center;
+      margin: 8px 0;
+      gap: 8px;
+    }
+    .payment-option input {
+      accent-color: #111;
+      transform: scale(1.2);
+    }
+  </style>
 
-<div class="payment-method-box">
-  <h3>Choose Payment Method:</h3>
-  <select id="paymentMethodCart" class="payment-method-select">
-    <option value="">Select Payment Method</option>
-    <option value="cod">💵 Cash on Delivery</option>
-    <option value="jazzcash">📱 JazzCash (5% OFF)</option>
-    <option value="bank">🏦 Bank Transfer (Meezan Bank - 5% OFF)</option>
-  </select>
-
-  <!-- JazzCash -->
-  <div id="jazzcashDetails" class="payment-details">
-    <p><strong>Account Number:</strong> 0321-7815858</p>
-    <p>Send your payment to this JazzCash number and share your receipt via WhatsApp:</p>
-    <p><strong>📞 WhatsApp:</strong> 0321-7815858</p>
-    <form class="payment-form">
-      <input type="text" placeholder="Full Name" required>
-      <input type="email" placeholder="Email Address" required>
-      <input type="tel" placeholder="Phone Number" required>
-      <textarea placeholder="Receipt Details or Reference ID" required></textarea>
-      <button type="button" id="applyJazzCash">Apply JazzCash Discount</button>
-    </form>
+  <div class="payment-method-wrapper">
+    <h4>Choose your payment method</h4>
+    <div class="payment-option">
+      <input type="radio" name="payment_method" id="jazzcash" value="JazzCash">
+      <label for="jazzcash">JazzCash (5% off)</label>
+    </div>
+    <div class="payment-option">
+      <input type="radio" name="payment_method" id="easypaisa" value="EasyPaisa">
+      <label for="easypaisa">EasyPaisa (5% off)</label>
+    </div>
+    <div class="payment-option">
+      <input type="radio" name="payment_method" id="cod" value="COD" checked>
+      <label for="cod">Cash on Delivery (No discount)</label>
+    </div>
   </div>
 
-  <!-- Meezan Bank -->
-  <div id="bankDetails" class="payment-details">
-    <p><strong>Bank Name:</strong> Meezan Bank</p>
-    <p><strong>Account Title:</strong> Rabisa Store</p>
-    <p><strong>Account Number:</strong> PK47 MEZN 0004 0301 0456 4834</p>
-    <p><strong>Branch Code:</strong> 0403 — Peoples Colony Branch, Faisalabad</p>
-    <p>After sending payment, share your receipt via:</p>
-    <p><strong>📧 Email:</strong> rabisastore@gmail.com<br><strong>📞 WhatsApp:</strong> +92 321 7815858</p>
-    <form class="payment-form">
-      <input type="text" placeholder="Full Name" required>
-      <input type="email" placeholder="Email Address" required>
-      <input type="tel" placeholder="Phone Number" required>
-      <textarea placeholder="Receipt Details or Reference ID" required></textarea>
-      <button type="button" id="applyBank">Apply Bank Discount</button>
-    </form>
-  </div>
-</div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const discount = 0.05; // 5%
+      let discountApplied = false;
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const select = document.getElementById("paymentMethodCart");
-    const jazzcashDetails = document.getElementById("jazzcashDetails");
-    const bankDetails = document.getElementById("bankDetails");
-    const applyJazzCash = document.getElementById("applyJazzCash");
-    const applyBank = document.getElementById("applyBank");
+      const updateTotal = (applyDiscount) => {
+        const subtotalElement = document.querySelector('[data-checkout-subtotal-price-target]');
+        if (!subtotalElement) return;
 
-    if (!select) return;
+        const subtotal = parseFloat(subtotalElement.textContent.replace(/[^\d.]/g, ''));
+        let total = subtotal;
 
-    // Hide and show payment sections
-    select.addEventListener("change", () => {
-      jazzcashDetails.classList.remove("active");
-      bankDetails.classList.remove("active");
+        if (applyDiscount) total = subtotal - (subtotal * discount);
 
-      if (select.value === "jazzcash") {
-        jazzcashDetails.classList.add("active");
-      } else if (select.value === "bank") {
-        bankDetails.classList.add("active");
-      } else if (select.value === "cod") {
-        // Remove any applied discounts for COD
-        window.location.href = "/cart?discount=";
-      }
+        const totalElement = document.querySelector('[data-checkout-payment-due-target]');
+        if (totalElement) totalElement.textContent = 'Rs. ' + total.toFixed(2);
+      };
+
+      document.querySelectorAll('input[name="payment_method"]').forEach((radio) => {
+        radio.addEventListener('change', (e) => {
+          const method = e.target.value;
+
+          if (method === 'JazzCash' || method === 'EasyPaisa') {
+            updateTotal(true);
+            discountApplied = true;
+          } else {
+            updateTotal(false);
+            discountApplied = false;
+          }
+        });
+      });
     });
-
-    // Apply discount codes
-    applyJazzCash.addEventListener("click", () => {
-      window.location.href = "/discount/JAZZ20?redirect=/cart";
-    });
-
-    applyBank.addEventListener("click", () => {
-      window.location.href = "/discount/EASYP20?redirect=/cart";
-    });
-  });
-</script>
+  </script>
 {% endif %}
