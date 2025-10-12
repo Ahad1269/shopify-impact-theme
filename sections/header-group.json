@@ -17,13 +17,21 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "📦 FREE DELIVERY ON ALL ORDERS | FLAT 5% OFF ON ONLINE PAYMENTS",
+            "text": "📦 FREE DELIVERY ON ALL ORDERS",
+            "url": ""
+          }
+        },
+        "message_dQdzyK": {
+          "type": "message",
+          "settings": {
+            "text": "FLAT 5% OFF ON ONLINE PAYMENT",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_dQdzyK"
       ],
       "settings": {
         "enable_sticky": false,
