@@ -1,117 +1,128 @@
-<!-- Payment Method Selector - Premium Animated Design for JazzCash/EasyPaisa -->
+<!-- Enhanced Payment Selector - Rabisa Store -->
 <style>
-  .payment-method-box {
+  .payment-method-section {
     margin-top: 20px;
-    padding: 18px;
-    border-top: 1px solid #e5e5e5;
     background: #f9fafb;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    text-align: center;
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
   }
 
-  .payment-method-box h3 {
+  .payment-method-section label {
+    display: block;
     font-weight: 700;
-    color: #111;
-    margin-bottom: 14px;
-    font-size: 17px;
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 10px;
   }
 
-  .payment-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-
-  .payment-btn {
-    flex: 1;
-    padding: 12px;
+  .payment-method-select {
+    width: 100%;
+    padding: 10px;
     border-radius: 10px;
-    border: 2px solid #ddd;
+    border: 1px solid #ccc;
     background: #fff;
-    font-weight: 600;
-    cursor: pointer;
     font-size: 15px;
-    transition: all 0.25s ease;
-    min-width: 140px;
-    max-width: 200px;
-    position: relative;
+    transition: border-color 0.2s ease;
   }
 
-  .payment-btn:hover {
-    border-color: #000;
-    transform: translateY(-2px);
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  .payment-method-select:focus {
+    border-color: #111;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.08);
   }
 
-  .payment-btn.active {
-    border-color: #000;
-    background: #000;
-    color: #fff;
-    transform: scale(1.04);
-    box-shadow: 0 4px 14px rgba(0,0,0,0.2);
-  }
-
-  .discount-tag {
-    display: inline-block;
-    margin-left: 6px;
-    background: #16a34a;
-    color: white;
-    font-size: 12px;
-    padding: 2px 6px;
-    border-radius: 6px;
-    font-weight: 700;
-  }
-
-  .success-message {
+  .payment-info-box {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
     display: none;
-    margin-top: 10px;
-    color: #16a34a;
-    font-weight: 600;
-    font-size: 14px;
-    animation: fadeIn 0.4s ease forwards;
   }
 
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(4px); }
-    to { opacity: 1; transform: translateY(0); }
+  .payment-info-box.active {
+    display: block;
+  }
+
+  .payment-info-box strong {
+    color: #111;
+  }
+
+  .checkout-form {
+    margin-top: 15px;
+  }
+
+  .checkout-form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .checkout-form input:focus {
+    border-color: #000;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
   }
 </style>
 
-<div class="payment-method-box">
-  <h3>Choose Your Payment Method</h3>
-  <div class="payment-buttons">
-    <button class="payment-btn" data-method="cod">💵 Cash on Delivery</button>
-    <button class="payment-btn" data-method="jazzcash">📱 JazzCash <span class="discount-tag">5% OFF</span></button>
-    <button class="payment-btn" data-method="easypaisa">💳 EasyPaisa <span class="discount-tag">5% OFF</span></button>
+<div class="payment-method-section">
+  <label for="paymentMethod">Choose Payment Method:</label>
+  <select id="paymentMethod" class="payment-method-select">
+    <option value="cod">💵 Cash on Delivery</option>
+    <option value="jazzcash">📱 JazzCash (5% OFF)</option>
+    <option value="bank">🏦 Meezan Bank (5% OFF)</option>
+  </select>
+
+  <!-- JazzCash Info -->
+  <div id="jazzcashInfo" class="payment-info-box">
+    <strong>JazzCash Payment Details:</strong><br>
+    Account Number: <b>0321-7815858</b><br>
+    Please share your <b>receipt screenshot or number</b> via WhatsApp at <b>0321-7815858</b>.<br><br>
+    <em>5% discount will be automatically applied at checkout.</em>
   </div>
-  <p class="success-message" id="discountMsg">✅ 5% discount applied successfully!</p>
+
+  <!-- Meezan Bank Info -->
+  <div id="bankInfo" class="payment-info-box">
+    <strong>Meezan Bank Details:</strong><br>
+    Account Title: <b>RABISA STORE</b><br>
+    IBAN: <b>PK47 MEZN 0004 0301 0456 4834</b><br>
+    Branch Code: <b>0403</b><br>
+    Branch: <b>Peoples Colony, Faisalabad</b><br>
+    Send payment receipt screenshot to <b>rabistastore@gmail.com</b> or WhatsApp at <b>+92 321 7815858</b>.<br><br>
+    <em>5% discount will be automatically applied at checkout.</em>
+  </div>
+
+  <!-- Checkout Info Form -->
+  <form class="checkout-form">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email (Required)" required>
+    <input type="tel" name="phone" placeholder="Phone Number (Required)" required>
+    <input type="text" name="address" placeholder="Address">
+  </form>
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const buttons = document.querySelectorAll('.payment-btn');
-  const message = document.getElementById('discountMsg');
+  document.addEventListener('DOMContentLoaded', function() {
+    const select = document.getElementById('paymentMethod');
+    const jazzcashBox = document.getElementById('jazzcashInfo');
+    const bankBox = document.getElementById('bankInfo');
 
-  buttons.forEach(button => {
-    button.addEventListener('click', () => {
-      buttons.forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
+    select.addEventListener('change', function() {
+      // Hide all boxes
+      jazzcashBox.classList.remove('active');
+      bankBox.classList.remove('active');
 
-      const method = button.getAttribute('data-method');
-      message.style.display = 'none';
-
-      if (method === 'jazzcash') {
+      if (this.value === 'jazzcash') {
+        jazzcashBox.classList.add('active');
         window.location.href = '/discount/JAZZ20?redirect=/cart';
-        setTimeout(() => { message.style.display = 'block'; }, 1200);
-      } else if (method === 'easypaisa') {
+      } else if (this.value === 'bank') {
+        bankBox.classList.add('active');
         window.location.href = '/discount/EASYP20?redirect=/cart';
-        setTimeout(() => { message.style.display = 'block'; }, 1200);
       } else {
         window.location.href = '/cart';
       }
     });
   });
-});
 </script>
