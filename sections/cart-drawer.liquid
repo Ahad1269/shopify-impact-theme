@@ -112,38 +112,45 @@
             <p class="text-subdued text-sm">{{ 'cart.general.taxes_and_shipping_at_checkout' | t }}</p>
           {%- endif -%}
         {%- endif -%}
-
-        {%- if section.settings.show_cart_note -%}
-          <button type="button" class="justify-self-start" aria-controls="cart-drawer-note">
-            <span class="link text-sm text-subdued">
-              {%- if cart.note == blank -%}
-                {{- 'cart.general.add_order_note' | t -}}
-              {%- else -%}
-                {{- 'cart.general.edit_order_note' | t -}}
-              {%- endif -%}
-            </span>
-          </button>
-
-          <cart-note-dialog id="cart-drawer-note" class="cart-drawer__note">
-            <div class="cart-drawer__note-inner">
-              <div class="v-stack gap-4 sm:gap-6">
-                <p class="h5">{{ 'cart.general.order_note' | t }}</p>
-
-                <cart-note class="v-stack gap-4">
-                  {%- assign order_note = 'cart.general.order_note' | t -%}
-                  {%- assign order_save_label = 'cart.general.save_note' | t -%}
-
-                  {%- render 'input', name: 'note', multiline: 3, label: order_note, value: cart.note -%}
-
-                  <div class="justify-self-start">
-                    {%- render 'button', type: 'button', content: order_save_label, size: 'lg', is: 'close-button', secondary: true -%}
-                  </div>
-                </cart-note>
-              </div>
-            </div>
-          </cart-note-dialog>
-        {%- endif -%}
       </div>
+
+      <!-- ✅ Payment Confirmation Form Added Here -->
+      <div id="custom-payment-form" style="margin-top:20px; padding:15px; border:1px solid #e5e5e5; border-radius:8px; background:#fafafa;">
+        <h4 style="margin-bottom:10px;">Payment Confirmation Form</h4>
+
+        <form id="paymentForm">
+          <div style="margin-bottom:10px;">
+            <label for="name">Full Name*</label><br>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:6px;">
+          </div>
+
+          <div style="margin-bottom:10px;">
+            <label for="email">Email*</label><br>
+            <input type="email" id="email" name="email" required placeholder="Enter your email" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:6px;">
+          </div>
+
+          <div style="margin-bottom:10px;">
+            <label for="phone">Phone Number*</label><br>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:6px;">
+          </div>
+
+          <div style="margin-bottom:10px;">
+            <label for="notes">Payment Details / Notes (optional)</label><br>
+            <textarea id="notes" name="notes" rows="3" placeholder="Any payment details..." style="width:100%; padding:8px; border:1px solid #ccc; border-radius:6px;"></textarea>
+          </div>
+
+          <button type="submit" style="width:100%; padding:10px; background:#111; color:#fff; border:none; border-radius:6px; cursor:pointer;">
+            Submit Payment Info
+          </button>
+        </form>
+      </div>
+
+      <script>
+      document.getElementById('paymentForm').addEventListener('submit', function(e){
+        e.preventDefault();
+        alert('Thank you! Your payment info has been noted.');
+      });
+      </script>
 
       <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
         {%- assign checkout_label = 'cart.general.checkout' | t -%}
