@@ -42,6 +42,10 @@
             "size_chart_page": ""
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -87,10 +91,6 @@
             "title": "Title",
             "content": ""
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
         }
       },
       "block_order": [
@@ -99,13 +99,13 @@
         "badges",
         "price",
         "variant_picker",
+        "quantity_selector",
         "buy_buttons",
         "product_variations_VdLwFN",
         "description",
         "image_7war94",
         "inventory_tY477w",
-        "collapsible_text_DW9U4i",
-        "quantity_selector"
+        "collapsible_text_DW9U4i"
       ],
       "settings": {
         "full_width": true,
