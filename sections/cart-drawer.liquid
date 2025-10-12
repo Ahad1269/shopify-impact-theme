@@ -1,5 +1,5 @@
 {% if template.name == 'cart' %}
-<!-- JazzCash + Bank Transfer (Cart Page Only) -->
+<!-- JazzCash + Bank Transfer (Cart Page Only with Discount Logic Fixed) -->
 <style>
   .payment-method-box {
     margin-top: 1.5rem;
@@ -82,7 +82,7 @@
   <!-- JazzCash -->
   <div id="jazzcashDetails" class="payment-details">
     <p><strong>Account Number:</strong> 0321-7815858</p>
-    <p>Please send payment via JazzCash and then share your receipt via WhatsApp:</p>
+    <p>Send your payment to this JazzCash number and share your receipt via WhatsApp:</p>
     <p><strong>📞 WhatsApp:</strong> 0321-7815858</p>
     <form class="payment-form">
       <input type="text" placeholder="Full Name" required>
@@ -99,7 +99,7 @@
     <p><strong>Account Title:</strong> Rabisa Store</p>
     <p><strong>Account Number:</strong> PK47 MEZN 0004 0301 0456 4834</p>
     <p><strong>Branch Code:</strong> 0403 — Peoples Colony Branch, Faisalabad</p>
-    <p>After sending payment, share receipt via:</p>
+    <p>After sending payment, share your receipt via:</p>
     <p><strong>📧 Email:</strong> rabisastore@gmail.com<br><strong>📞 WhatsApp:</strong> +92 321 7815858</p>
     <form class="payment-form">
       <input type="text" placeholder="Full Name" required>
@@ -121,14 +121,22 @@
 
     if (!select) return;
 
+    // Hide and show payment sections
     select.addEventListener("change", () => {
       jazzcashDetails.classList.remove("active");
       bankDetails.classList.remove("active");
 
-      if (select.value === "jazzcash") jazzcashDetails.classList.add("active");
-      else if (select.value === "bank") bankDetails.classList.add("active");
+      if (select.value === "jazzcash") {
+        jazzcashDetails.classList.add("active");
+      } else if (select.value === "bank") {
+        bankDetails.classList.add("active");
+      } else if (select.value === "cod") {
+        // Remove any applied discounts for COD
+        window.location.href = "/cart?discount=";
+      }
     });
 
+    // Apply discount codes
     applyJazzCash.addEventListener("click", () => {
       window.location.href = "/discount/JAZZ20?redirect=/cart";
     });
