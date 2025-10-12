@@ -1,0 +1,129 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": false,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "1760266505d691a577": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "faq_BYikQz": {
+      "type": "faq",
+      "blocks": {
+        "item_ztgPEm": {
+          "type": "item",
+          "settings": {
+            "title": "⁠ ⁠What makes double wall glass mugs different from regular mugs?",
+            "content": "<p>Our mugs feature double wall insulation, keeping drinks hot or cold longer. They’re lightweight, stylish, and comfortable to hold combining elegance and practicality.<br/></p>"
+          }
+        },
+        "item_mT7E8F": {
+          "type": "item",
+          "settings": {
+            "title": "Can I use them for hot and cold drinks safely?",
+            "content": "<p>Yes! Perfect for hot coffee, tea, or cold beverages. The outer glass stays safe to touch, so no burned hands.<br/></p>"
+          }
+        },
+        "item_xyKeTW": {
+          "type": "item",
+          "settings": {
+            "title": "Are they microwave and dishwasher safe?",
+            "content": "<p>They work fine in the microwave, but we don’t recommend frequent use to preserve longevity. Dishwasher safe for easy cleaning.<br/></p>"
+          }
+        },
+        "item_bn9aHB": {
+          "type": "item",
+          "settings": {
+            "title": "What material is it made of?",
+            "content": "<p>Premium borosilicate glass durable, heat-resistant, and crystal clear, built to last while keeping your drinks at the perfect temperature.</p>"
+          }
+        },
+        "item_mtkkYx": {
+          "type": "item",
+          "settings": {
+            "title": "⁠Will it arrive safely to me?",
+            "content": "<p>Every mug is carefully inspected and packed in three layers with extra bubble wrap to ensure it reaches you in perfect condition.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ztgPEm",
+        "item_mT7E8F",
+        "item_xyKeTW",
+        "item_bn9aHB",
+        "item_mtkkYx"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1760266505d691a577",
+    "faq_BYikQz",
+    "main"
+  ]
+}
