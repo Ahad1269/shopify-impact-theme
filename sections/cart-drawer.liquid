@@ -1,25 +1,23 @@
-<!-- Enhanced Payment Selector & Form - Rabisa Store -->
+<!-- Rabisa Store - Professional Payment Section -->
 <style>
-  /* Container */
-  .payment-method-section {
-    margin-top: 25px;
+  .payment-section {
     background: #f9fafb;
-    border-radius: 14px;
-    padding: 22px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.07);
+    font-family: "Poppins", sans-serif;
   }
 
-  /* Label */
-  .payment-method-section label {
-    display: block;
+  .payment-section label {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px;
     color: #111;
     margin-bottom: 10px;
+    display: block;
   }
 
-  /* Dropdown */
-  .payment-method-select {
+  .payment-select {
     width: 100%;
     padding: 12px;
     border-radius: 12px;
@@ -29,34 +27,31 @@
     transition: all 0.25s ease;
   }
 
-  .payment-method-select:focus {
+  .payment-select:focus {
     border-color: #111;
     box-shadow: 0 0 0 4px rgba(0,0,0,0.05);
   }
 
-  /* Payment Info Boxes */
-  .payment-info-box {
+  /* Info boxes */
+  .payment-info {
     margin-top: 18px;
-    padding: 16px;
-    border-radius: 12px;
     background: #fff;
     border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
     display: none;
     animation: fadeIn 0.4s ease;
   }
-
-  .payment-info-box.active {
+  .payment-info.active {
     display: block;
   }
-
-  .payment-info-box strong {
+  .payment-info strong {
     color: #000;
-    font-weight: 700;
   }
 
-  /* Form Styling */
+  /* Form design */
   .checkout-form {
-    margin-top: 18px;
+    margin-top: 20px;
     background: #fff;
     padding: 18px;
     border-radius: 12px;
@@ -65,22 +60,18 @@
 
   .form-group {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
   }
 
   .form-group input {
     width: 100%;
     padding: 12px 10px;
-    border-radius: 10px;
     border: 1px solid #ccc;
+    border-radius: 10px;
     font-size: 15px;
     outline: none;
+    background: transparent;
     transition: all 0.2s ease;
-  }
-
-  .form-group input:focus {
-    border-color: #111;
-    box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
   }
 
   .form-group label {
@@ -88,110 +79,136 @@
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
-    background: #fff;
-    padding: 0 5px;
-    color: #666;
+    color: #777;
     font-size: 14px;
+    background: #fff;
+    padding: 0 6px;
     pointer-events: none;
     transition: 0.2s ease all;
   }
 
+  .form-group input:focus {
+    border-color: #111;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.08);
+  }
+
   .form-group input:focus + label,
   .form-group input:not(:placeholder-shown) + label {
-    top: -8px;
+    top: -10px;
+    left: 10px;
     font-size: 12px;
-    color: #111;
     font-weight: 600;
+    color: #111;
   }
 
-  /* Required Star */
-  .required-star {
+  .required {
     color: #e63946;
-    font-weight: bold;
   }
 
-  /* Fade Animation */
+  /* Checkout button */
+  .checkout-btn {
+    width: 100%;
+    margin-top: 18px;
+    background: #111;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+  }
+
+  .checkout-btn:hover {
+    background: #000;
+  }
+
+  .checkout-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+
   @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(5px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {opacity: 0; transform: translateY(5px);}
+    to {opacity: 1; transform: translateY(0);}
   }
 
-  /* Responsive */
   @media (max-width: 600px) {
-    .payment-method-section {
+    .payment-section {
       padding: 16px;
-    }
-    .checkout-form {
-      padding: 14px;
     }
   }
 </style>
 
-<div class="payment-method-section">
+<div class="payment-section">
   <label for="paymentMethod">Choose Payment Method:</label>
-  <select id="paymentMethod" class="payment-method-select">
+  <select id="paymentMethod" class="payment-select">
     <option value="cod">💵 Cash on Delivery</option>
     <option value="jazzcash">📱 JazzCash (5% OFF)</option>
     <option value="bank">🏦 Meezan Bank (5% OFF)</option>
   </select>
 
   <!-- JazzCash Info -->
-  <div id="jazzcashInfo" class="payment-info-box">
+  <div id="jazzInfo" class="payment-info">
     <strong>JazzCash Payment Details:</strong><br>
     Account Number: <b>0321-7815858</b><br>
-    Please share your <b>receipt screenshot or number</b> via WhatsApp at <b>0321-7815858</b>.<br><br>
-    <em>5% discount will be automatically applied at checkout.</em>
+    After sending payment, share your <b>receipt screenshot or number</b> on WhatsApp: <b>0321-7815858</b>.<br><br>
+    <em>5% discount will be applied automatically.</em>
   </div>
 
   <!-- Meezan Bank Info -->
-  <div id="bankInfo" class="payment-info-box">
+  <div id="bankInfo" class="payment-info">
     <strong>Meezan Bank Details:</strong><br>
     Account Title: <b>RABISA STORE</b><br>
     IBAN: <b>PK47 MEZN 0004 0301 0456 4834</b><br>
     Branch Code: <b>0403</b><br>
     Branch: <b>Peoples Colony, Faisalabad</b><br>
-    Send receipt screenshot to <b>rabistastore@gmail.com</b> or WhatsApp at <b>+92 321 7815858</b>.<br><br>
-    <em>5% discount will be automatically applied at checkout.</em>
+    Send receipt screenshot to <b>rabistastore@gmail.com</b> or WhatsApp: <b>+92 321 7815858</b>.<br><br>
+    <em>5% discount will be applied automatically.</em>
   </div>
 
-  <!-- Elegant Checkout Info Form -->
-  <form class="checkout-form">
+  <!-- Checkout Form -->
+  <form id="checkoutForm" class="checkout-form">
     <div class="form-group">
-      <input type="text" id="fullName" name="name" placeholder=" " required>
-      <label for="fullName">Full Name <span class="required-star">*</span></label>
+      <input type="text" id="name" name="name" placeholder=" " required>
+      <label for="name">Full Name <span class="required">*</span></label>
     </div>
 
     <div class="form-group">
       <input type="email" id="email" name="email" placeholder=" " required>
-      <label for="email">Email <span class="required-star">*</span></label>
+      <label for="email">Email <span class="required">*</span></label>
     </div>
 
     <div class="form-group">
       <input type="tel" id="phone" name="phone" placeholder=" " required>
-      <label for="phone">Phone Number <span class="required-star">*</span></label>
+      <label for="phone">Phone Number <span class="required">*</span></label>
     </div>
 
     <div class="form-group">
       <input type="text" id="address" name="address" placeholder=" ">
       <label for="address">Address</label>
     </div>
+
+    <button type="button" id="checkoutBtn" class="checkout-btn" disabled>Proceed to Checkout</button>
   </form>
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const select = document.getElementById('paymentMethod');
-    const jazzcashBox = document.getElementById('jazzcashInfo');
+    const jazzBox = document.getElementById('jazzInfo');
     const bankBox = document.getElementById('bankInfo');
+    const checkoutBtn = document.getElementById('checkoutBtn');
+    const form = document.getElementById('checkoutForm');
 
+    // Show correct info + apply discount
     select.addEventListener('change', function() {
-      // Hide both boxes first
-      jazzcashBox.classList.remove('active');
+      jazzBox.classList.remove('active');
       bankBox.classList.remove('active');
 
-      // Show selected info + apply discount
       if (this.value === 'jazzcash') {
-        jazzcashBox.classList.add('active');
+        jazzBox.classList.add('active');
         window.location.href = '/discount/JAZZ20?redirect=/cart';
       } else if (this.value === 'bank') {
         bankBox.classList.add('active');
@@ -199,6 +216,17 @@
       } else {
         window.location.href = '/cart';
       }
+    });
+
+    // Enable button when form is complete
+    form.addEventListener('input', function() {
+      const allFilled = [...form.querySelectorAll('input[required]')].every(input => input.value.trim() !== '');
+      checkoutBtn.disabled = !allFilled;
+    });
+
+    checkoutBtn.addEventListener('click', function() {
+      alert('Thank you! You will be redirected to the secure checkout page.');
+      window.location.href = '/checkout';
     });
   });
 </script>
