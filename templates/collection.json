@@ -30,6 +30,10 @@
         "overlay_opacity": 0
       }
     },
+    "1760266505d691a577": {
+      "type": "_blocks",
+      "settings": {}
+    },
     "faq_BYikQz": {
       "type": "faq",
       "blocks": {
@@ -118,6 +122,7 @@
   },
   "order": [
     "banner",
+    "1760266505d691a577",
     "faq_BYikQz",
     "main"
   ]
