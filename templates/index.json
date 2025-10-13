@@ -69,7 +69,7 @@
         "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 6,
-        "background": "#f2f2f2",
+        "background": "#fffde7",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
@@ -82,7 +82,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 3,
-        "background": "",
+        "background": "#fff59d",
         "background_gradient": "",
         "text_color": "",
         "text_gradient": ""
