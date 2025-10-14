@@ -38,7 +38,7 @@
     },
     "gp_section_588744257838252699": {
       "settings": {
-        "checksum": "e887298f2134893f4386046cfb8107c84a15a62fa42eef066fbe741a8d171249_1_1_1_0__1",
+        "checksum": "163b54e03e242c629f6cdf9c7676dd6843f86c296c482c8f203fc2a5f46ef36d_1_1_1_0__1",
         "gg-0-Grlkor_text": "<p>(224 reviews)</p>",
         "gg3kixuqiEs_label": "Buy it now",
         "ggMb03poKaV_label": "Add to cart",
@@ -51,40 +51,12 @@
         "section_preload": "true"
       },
       "type": "gp-section-588744257838252699"
-    },
-    "gp_section_588744257855030162": {
-      "settings": {
-        "checksum": "a79019daf9b36bc05feaedabcce2b0ed60049e1e3aa86648e096776eba22e330_1_1_1_0__1",
-        "gg7TKgqiJ74_text": "<p>Relieve Eye Pain and Improve Sleep</p>",
-        "gg8pug8H_Xs_label": "Buy Now",
-        "gg8pug8H_Xs_outOfStockLabel": "Out of stock",
-        "gg8pug8H_Xs_unavailableLabel": "Unavailable",
-        "gg8pug8H_Xs_variantSelectionRequiredMessage": "Please select a variant to add product to cart",
-        "gg9DeDrHa_v_text": "<p>Only on Mother’s Day!</p>",
-        "ggC8CTGQAAm_text": "<p>Only on Mother’s Day!</p>",
-        "ggVrVwXqwhn_label": "Buy Now",
-        "ggVrVwXqwhn_outOfStockLabel": "Out of stock",
-        "ggVrVwXqwhn_unavailableLabel": "Unavailable",
-        "ggVrVwXqwhn_variantSelectionRequiredMessage": "Please select a variant to add product to cart",
-        "ggcF9T6hxbG_text": "<p>(224 reviews)</p>",
-        "ggjSx3ZbFwk_text": "<p>Relieve Eye Pain and Improve Sleep</p>",
-        "ggk64oRV6O8_text": "<p>(224 reviews)</p>",
-        "ggmPIM7t0Xi_text": "<p>Only on Mother’s Day!</p>",
-        "ggnAL3TkOJf_text": "<p>(224 reviews)</p>",
-        "ggr4T7Ee38O_text": "<p>Relieve Eye Pain and Improve Sleep</p>",
-        "ggtsLlxrZtU_label": "Buy Now",
-        "ggtsLlxrZtU_outOfStockLabel": "Out of stock",
-        "ggtsLlxrZtU_unavailableLabel": "Unavailable",
-        "ggtsLlxrZtU_variantSelectionRequiredMessage": "Please select a variant to add product to cart"
-      },
-      "type": "gp-section-588744257855030162"
     }
   },
   "order": [
     "gp_section_588744254348592017",
     "gp_section_588744257838252699",
     "gp_section_588744254835130898",
-    "gp_section_588744255774654994",
-    "gp_section_588744257855030162"
+    "gp_section_588744255774654994"
   ]
 }
