@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Double.png",
-            "mobile_image": "shopify://shop_images/Untitled_design_19.png",
+            "image": "shopify:\/\/shop_images\/Double.png",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_19.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -37,8 +37,8 @@
         "image_xBQXHD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_15_0b7b4c50-593e-42b5-9656-6c1910a1e6a2.png",
-            "mobile_image": "shopify://shop_images/Untitled_design_20.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_15_0b7b4c50-593e-42b5-9656-6c1910a1e6a2.png",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_20.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -119,10 +119,10 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Airpod_Cases.png",
+            "image": "shopify:\/\/shop_images\/Airpod_Cases.png",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/airpods-cases",
+            "link_url": "shopify:\/\/collections\/airpods-cases",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -132,10 +132,10 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_17.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_17.png",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/card-holders",
+            "link_url": "shopify:\/\/collections\/card-holders",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -145,10 +145,10 @@
         "1664424046b00c932c-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Card_Holders.png",
+            "image": "shopify:\/\/shop_images\/Card_Holders.png",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/kitchen",
+            "link_url": "shopify:\/\/collections\/kitchen",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -158,10 +158,10 @@
         "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Card_Holders_1.png",
+            "image": "shopify:\/\/shop_images\/Card_Holders_1.png",
             "stretch_image": true,
             "link_text": "",
-            "link_url": "shopify://collections/iphone-cases",
+            "link_url": "shopify:\/\/collections\/iphone-cases",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -358,7 +358,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/www.rabisastore.pk.png",
+        "image": "shopify:\/\/shop_images\/www.rabisastore.pk.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -447,14 +447,14 @@
     },
     "before_after_image_g44dND": {
       "type": "before-after-image",
-      "name": "Before/after image",
+      "name": "Before\/after image",
       "settings": {
         "full_width": true,
         "subheading": "",
         "title": "Tranform your space with the Vocanic Humidifier",
         "content": "",
-        "before_image": "shopify://shop_images/www.rabisastore.pk_1.png",
-        "after_image": "shopify://shop_images/www.rabisastore.pk_d53fd15a-11f9-404b-8ff9-2c3f5c6ba645.png",
+        "before_image": "shopify:\/\/shop_images\/www.rabisastore.pk_1.png",
+        "after_image": "shopify:\/\/shop_images\/www.rabisastore.pk_d53fd15a-11f9-404b-8ff9-2c3f5c6ba645.png",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
@@ -477,42 +477,42 @@
           "type": "item",
           "settings": {
             "title": "How long will it take to get my orders?",
-            "content": "<p>Orders are delivered within <strong>3–5 working days</strong> after confirmation.</p>"
+            "content": "<p>Orders are delivered within <strong>3–5 working days<\/strong> after confirmation.<\/p>"
           }
         },
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
             "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply. Kindly whatsapp us on 03217815858 to place overseas orders.</p>"
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply. Kindly whatsapp us on 03217815858 to place overseas orders.<\/p>"
           }
         },
         "item_QCJ9gk": {
           "type": "item",
           "settings": {
             "title": "Can I return or exchange my order?",
-            "content": "<p>Yes, we offer easy replacements. Just contact us within <strong>14 Days</strong> of receiving your order. Return charges apply. </p>"
+            "content": "<p>Yes, we offer easy replacements. Just contact us within <strong>14 Days<\/strong> of receiving your order. Return charges apply. <\/p>"
           }
         },
         "item_HdthTR": {
           "type": "item",
           "settings": {
             "title": "How can I track my order?",
-            "content": "<p>Once shipped, you’ll receive a tracking number via Email you provided.</p>"
+            "content": "<p>Once shipped, you’ll receive a tracking number via Email you provided.<\/p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
             "title": "Do you offer Cash on Delivery (COD)?",
-            "content": "<p>Yes, COD is available across Pakistan. However, <strong>we recommend prepaid orders for faster processing</strong>.</p>"
+            "content": "<p>Yes, COD is available across Pakistan. However, <strong>we recommend prepaid orders for faster processing<\/strong>.<\/p>"
           }
         },
         "item_iRgaeL": {
           "type": "item",
           "settings": {
             "title": "What if I receive a wrong or damaged product?",
-            "content": "<p>No worries! Reach out to us within 48 hours, and we’ll arrange a replacement if eligible.</p>"
+            "content": "<p>No worries! Reach out to us within 48 hours, and we’ll arrange a replacement if eligible.<\/p>"
           }
         }
       },
@@ -530,7 +530,7 @@
         "title": "FAQ's",
         "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available 24/7 on Whatsapp 0321 7815858",
+        "support_hours": "Our customer support is available 24\/7 on Whatsapp 0321 7815858",
         "answer_time": "Average answer time: 4h",
         "button_text": "",
         "button_url": "",
