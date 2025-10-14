@@ -46,43 +46,17 @@
       {%- assign gpBkProduct = product -%}
       
       {%- liquid
-        if request.page_type == 'product'
-          if 'static' == 'static'
-            if 'latest' == 'latest'
-              paginate collections.all.products by 100000
-                assign product = collections.all.products | sort: 'created_at' | reverse | first
-              endpaginate
-            else
-              assign product = all_products['']
-              assign productId = 'latest' | times: 1
-              if product == empty or product == null
-                paginate collections.all.products by 100000
-                  for item in collections.all.products
-                    if item.id == productId
-                      assign product = item
-                    endif
-                  endfor
-                endpaginate
-              endif
-            endif
-          endif
-        else
-          if 'latest' == 'latest'
+        if request.page_type != 'product'
+          assign product = all_products['24-piece-gold-stainless-steel-cutlery-set-elegant-flatware-with-forks-knives-spoons-in-gift-box-green-white-rose-gold-golden']
+          assign productId = '8985661800599' | times: 1
+          if product == empty or product == null
             paginate collections.all.products by 100000
-              assign product = collections.all.products | sort: 'created_at'| reverse | first
+              for item in collections.all.products
+                if item.id == productId
+                  assign product = item
+                endif
+              endfor
             endpaginate
-          else
-            assign product = all_products['']
-            assign productId = 'latest' | times: 1
-            if product == empty or product == null
-              paginate collections.all.products by 100000
-                for item in collections.all.products
-                  if item.id == productId
-                    assign product = item
-                  endif
-                endfor
-              endpaginate
-            endif
           endif
         endif
       -%}
@@ -893,7 +867,7 @@
     <div data-id="gS1pK3OHH5"
         class="gS1pK3OHH5"
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1760448813035"
+        data-test-force-publish="1760448857364"
       >
       <div  >
         <h2
@@ -911,7 +885,7 @@
     <div data-id="gvpsXl9YUz"
         class="gvpsXl9YUz"
         style="--ta:left;--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:var(--g-s-l);--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1760448813037"
+        data-test-force-publish="1760448857364"
       >
       <div class="gp-flex" style="--jc:left">
         <div
@@ -1030,7 +1004,7 @@
     <div data-id="g-0-Grlkor"
         class="g-0-Grlkor"
         style="--ta:left;--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_STATIC;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:0px;--pb:0px;--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1760448813153"
+        data-test-force-publish="1760448857366"
       >
       <div class="gp-flex" style="--jc:left">
         <div
@@ -1114,7 +1088,7 @@
     <div id="p-price-g12CKEtnyT" data-id
         
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1760448813155"
+        data-test-force-publish="1760448857368"
       >
       <div  >
         <div
@@ -1151,7 +1125,7 @@
     <div id="p-price-gsojcbewCL" data-id
         
         style="--dynamic-source-color:#F4F4F4"
-        data-test-force-publish="1760448813155"
+        data-test-force-publish="1760448857368"
       >
       <div  >
         <div
